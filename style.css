@@ -1,0 +1,44 @@
+body {
+    background-color: #efebe2;
+    margin: 1em;
+}
+
+img {
+    width: 60vw;
+}
+
+header img{
+    width: 60vw;
+    height: auto;
+    margin: 7em;
+    filter: drop-shadow(2px 2px 2px gray);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: #f4f0e7;
+    border-radius: 2em;
+    height:auto;
+    padding: 3em;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 5em;
+    filter: drop-shadow(1px 1px .005px gray);
+
+}
+
+section img {
+    height: 25vw;
+    scale: 1;
+    filter: drop-shadow(2px 2px 2px gray);
+}
+
+section img:hover {
+    scale: 1.025;
+}
